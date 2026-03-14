@@ -1,0 +1,82 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f6f9;
+}
+
+/* LOGIN PAGE */
+
+.login-body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.login-container{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0px 5px 20px rgba(0,0,0,0.2);
+width:300px;
+text-align:center;
+}
+
+.login-container h2{
+margin-bottom:20px;
+}
+
+.login-container input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ddd;
+border-radius:5px;
+}
+
+.login-container button{
+width:100%;
+padding:10px;
+background:#2575fc;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.login-container button:hover{
+background:#1a5edb;
+}
+
+
+/* DASHBOARD */
+
+.navbar{
+background:#2575fc;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.navbar button{
+background:white;
+color:#2575fc;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.dashboard{
+padding:40px;
+}
+
+canvas{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 5px 10px rgba(0,0,0,0.1);
+}
